@@ -27,7 +27,7 @@ export default function SplashScreen() {
             className="text-center"
           >
             <h1 className="text-5xl font-bold tracking-tighter text-primary font-display">
-              VIP STUDY
+              RK STUDY
             </h1>
             <motion.div
               initial={{ width: 0 }}
