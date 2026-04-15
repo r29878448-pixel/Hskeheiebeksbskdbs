@@ -58,8 +58,8 @@ const VerificationPopup = forwardRef<VerificationPopupRef>((_, ref) => {
       const token = Math.random().toString(36).substr(2, 15) + Date.now();
       const longUrl = `${window.location.origin}/token?token=${token}&uid=${userId}`;
       
-      const apiToken = process.env.NEXT_PUBLIC_VPLINK_API_TOKEN || '64cb3994119c683652e7f241880b1f4b3dda5e37';
-      const shortenApiUrl = `https://vplink.in/api?api=${apiToken}&url=${encodeURIComponent(longUrl)}`;
+      const apiToken = process.env.NEXT_PUBLIC_VPLINK_API_TOKEN || 'S5NM8hcPtUkqfYtsaF54DoSyBnpYGC6bpZ6Cac6-';
+      const shortenApiUrl = `https://sahiurl.com/api?api=${apiToken}&url=${encodeURIComponent(longUrl)}`;
       
       const response = await fetch(`/api/proxy?url=${encodeURIComponent(shortenApiUrl)}`);
       if (!response.ok) throw new Error('Failed to shorten link');
