@@ -141,7 +141,7 @@ export default function HomePage() {
                 VIPKGS
               </span>
               <span className="text-[10px] font-bold text-white/40 uppercase tracking-[0.2em] mt-1">
-                POWERED BY VIP STUDY
+                POWERED BY RK STUDY
               </span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
@@ -176,7 +176,7 @@ export default function HomePage() {
         
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/20 text-[10px] font-bold uppercase tracking-widest">
-            © 2026 VIP STUDY. ALL RIGHTS RESERVED.
+            © 2026 RK STUDY. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-6">
             <span className="text-white/20 text-[10px] font-bold uppercase tracking-widest cursor-pointer hover:text-white/40 transition-colors">Privacy Policy</span>
